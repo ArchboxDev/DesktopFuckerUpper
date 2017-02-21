@@ -46,6 +46,19 @@ void invert() {
 	ReleaseDC(0, hdcDesktop);
 }
 void tunnel() {
+		int num1 = rand() % -100 + 100;
+		int num2 = rand() % -100 + 100;
 	    hdcDesktop = GetDC(0);
-		StretchBlt(hdcDesktop, 50, 50, w - 100, h - 100, hdcDesktop, 0, 0, w, h, SRCCOPY);
+		StretchBlt(
+			hdcDesktop, 
+			50+num1, 
+			50+num2, 
+			w+num1, 
+			h+num2, 
+			hdcDesktop, 
+			0, 
+			0, 
+			w, 
+			h, 
+			SRCCOPY);
 }

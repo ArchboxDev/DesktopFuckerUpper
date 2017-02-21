@@ -22,7 +22,7 @@
     <ProjectGuid>{90BB56D1-3297-49D6-ACB6-5C7473A281D9}</ProjectGuid>
     <RootNamespace>Project2</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Desktop Fuck Uper</ProjectName>
+    <ProjectName>Desktop Fuck Upper</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
