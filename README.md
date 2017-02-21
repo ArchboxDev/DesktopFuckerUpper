@@ -1,4 +1,4 @@
-# DesktopFuckerUper
+# DesktopFuckerUpper
 A C++ application designed to fuck up your desktop completely. Kind of work in progress.
 
 Most of the stuff I got from reading the MEMZ payload code and some tutorials online(mostly syntax tutorials). Even if this is
