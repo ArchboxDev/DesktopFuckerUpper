@@ -4,7 +4,7 @@
 #include <WinUser.h>
 
 void invert();
-void tunnel();
+void scatter();
 const int w = GetSystemMetrics(SM_CXSCREEN),
 h = GetSystemMetrics(SM_CYSCREEN);
 HDC hdcDesktop;
@@ -18,11 +18,11 @@ int main() {
 
 	FreeConsole();
 	while (true) {
-		int num = rand() % 1000 + 100;
+		int num = rand() % 500 + 100;
 		invert();
-		tunnel();
+		scatter();
 		Sleep(num);
-		tunnel();
+		scatter();
 		invert();
 		Sleep(num);
 	}
@@ -45,16 +45,18 @@ void invert() {
 	);
 	ReleaseDC(0, hdcDesktop);
 }
-void tunnel() {
+void scatter() {
 		int num1 = rand() % -100 + 100;
 		int num2 = rand() % -100 + 100;
+		int num3 = rand() % -100 + 100;
+		int num4 = rand() % -100 + 100;
 	    hdcDesktop = GetDC(0);
 		StretchBlt(
 			hdcDesktop, 
 			50+num1, 
 			50+num2, 
-			w+num1, 
-			h+num2, 
+			w+num3, 
+			h+num4, 
 			hdcDesktop, 
 			0, 
 			0, 
