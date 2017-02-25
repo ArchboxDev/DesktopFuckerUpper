@@ -52,11 +52,11 @@ void scatter() {
 		int num4 = rand() % -100 + 100;
 	    hdcDesktop = GetDC(0);
 		StretchBlt(
-			hdcDesktop, 
-			50+num1, 
-			50+num2, 
-			w+num3, 
-			h+num4, 
+			hdcDesktop,
+			50 + num1,
+			50 + num2,
+			w + num3,
+			h + num4,
 			hdcDesktop, 
 			0, 
 			0, 
