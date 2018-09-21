@@ -7,12 +7,9 @@ begginer stuff I hope to add even more functionality which could be a great thin
 This program will be updated every once in a while. Please submit any issues, so I can have the experience of looking to fix them.
 If you do submit an issue please add your system specs. :)
 
-
-My website: http://towerga.ml/
-
 -----------
 
-Copyright (C) 2017 Towergame
+Copyright (C) 2018 Towergame
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
